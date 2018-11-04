@@ -1,0 +1,22 @@
+{
+  "name": "values-validator",
+  "version": "1.0.0",
+  "description": "Another library/framework agnostic form values validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.js"
+  },
+  "author": "Flavio Portela",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^10.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/flavio-portela/values-validator"
+  }
+}
